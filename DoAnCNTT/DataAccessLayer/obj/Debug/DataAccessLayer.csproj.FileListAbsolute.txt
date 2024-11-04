@@ -1,0 +1,12 @@
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

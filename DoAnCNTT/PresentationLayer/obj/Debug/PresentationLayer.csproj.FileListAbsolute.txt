@@ -18,3 +18,7 @@ C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\bin\Debug\EntityFramew
 C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\bin\Debug\BusinessAccessLayer.dll
 C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\bin\Debug\BusinessAccessLayer.pdb
 C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\bin\Debug\BusinessAccessLayer.dll.config
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\bin\Debug\Guna.UI.dll
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\bin\Debug\Guna.UI2.dll
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.Forms.MainForm.resources
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.Forms.LoginForm.resources

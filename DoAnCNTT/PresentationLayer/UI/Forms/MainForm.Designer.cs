@@ -74,6 +74,7 @@
             this.ButtonKH.Size = new System.Drawing.Size(306, 42);
             this.ButtonKH.TabIndex = 15;
             this.ButtonKH.Text = "Khách Hàng";
+            this.ButtonKH.Click += new System.EventHandler(this.ButtonKH_Click);
             // 
             // ButtonSP
             // 
@@ -98,6 +99,7 @@
             this.ButtonSP.Size = new System.Drawing.Size(306, 42);
             this.ButtonSP.TabIndex = 9;
             this.ButtonSP.Text = "Sản Phẩm";
+            this.ButtonSP.Click += new System.EventHandler(this.ButtonSP_Click);
             // 
             // lblTen
             // 
@@ -167,6 +169,7 @@
             this.ButtonTK.Size = new System.Drawing.Size(306, 42);
             this.ButtonTK.TabIndex = 20;
             this.ButtonTK.Text = "Thống Kê";
+            this.ButtonTK.Click += new System.EventHandler(this.ButtonTK_Click);
             // 
             // ButtonHDNH
             // 
@@ -191,6 +194,7 @@
             this.ButtonHDNH.Size = new System.Drawing.Size(306, 42);
             this.ButtonHDNH.TabIndex = 19;
             this.ButtonHDNH.Text = "Hóa Đơn Nhập Hàng";
+            this.ButtonHDNH.Click += new System.EventHandler(this.ButtonHDNH_Click);
             // 
             // ButtonNCC
             // 
@@ -215,6 +219,7 @@
             this.ButtonNCC.Size = new System.Drawing.Size(306, 42);
             this.ButtonNCC.TabIndex = 14;
             this.ButtonNCC.Text = "Nhà Cung Cấp";
+            this.ButtonNCC.Click += new System.EventHandler(this.ButtonNCC_Click);
             // 
             // ButtonNV
             // 
@@ -239,6 +244,7 @@
             this.ButtonNV.Size = new System.Drawing.Size(306, 42);
             this.ButtonNV.TabIndex = 18;
             this.ButtonNV.Text = "Nhân Viên";
+            this.ButtonNV.Click += new System.EventHandler(this.ButtonNV_Click);
             // 
             // ButtonHDBH
             // 
@@ -263,6 +269,7 @@
             this.ButtonHDBH.Size = new System.Drawing.Size(306, 42);
             this.ButtonHDBH.TabIndex = 17;
             this.ButtonHDBH.Text = "Hóa Đơn Bán Hàng";
+            this.ButtonHDBH.Click += new System.EventHandler(this.ButtonHDBH_Click);
             // 
             // gunaButton3
             // 
@@ -287,6 +294,7 @@
             this.gunaButton3.Size = new System.Drawing.Size(306, 52);
             this.gunaButton3.TabIndex = 16;
             this.gunaButton3.Text = "Đăng xuất";
+            this.gunaButton3.Click += new System.EventHandler(this.gunaButton3_Click);
             // 
             // gunaElipse1
             // 
@@ -342,6 +350,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Brother Sport Club Management";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).EndInit();

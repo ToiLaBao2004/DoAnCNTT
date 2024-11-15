@@ -56,7 +56,16 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,6 +75,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -82,6 +92,48 @@
     <Compile Include="UI\Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\UserControl\BienLaiUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserControl\BienLaiUI.Designer.cs">
+      <DependentUpon>BienLaiUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControl\HoaDonUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserControl\HoaDonUI.Designer.cs">
+      <DependentUpon>HoaDonUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControl\KhachHangUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserControl\KhachHangUI.Designer.cs">
+      <DependentUpon>KhachHangUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControl\NhaCungCapUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserControl\NhaCungCapUI.Designer.cs">
+      <DependentUpon>NhaCungCapUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControl\NhanVienUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserControl\NhanVienUI.Designer.cs">
+      <DependentUpon>NhanVienUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControl\SanPhamUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserControl\SanPhamUI.Designer.cs">
+      <DependentUpon>SanPhamUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UserControl\ThongKeUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UserControl\ThongKeUI.Designer.cs">
+      <DependentUpon>ThongKeUI.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -96,6 +148,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControl\BienLaiUI.resx">
+      <DependentUpon>BienLaiUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControl\HoaDonUI.resx">
+      <DependentUpon>HoaDonUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControl\KhachHangUI.resx">
+      <DependentUpon>KhachHangUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControl\NhaCungCapUI.resx">
+      <DependentUpon>NhaCungCapUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControl\NhanVienUI.resx">
+      <DependentUpon>NhanVienUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControl\SanPhamUI.resx">
+      <DependentUpon>SanPhamUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UserControl\ThongKeUI.resx">
+      <DependentUpon>ThongKeUI.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

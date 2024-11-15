@@ -22,3 +22,10 @@ C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\bin\Debug\Guna.UI.dll
 C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\bin\Debug\Guna.UI2.dll
 C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.Forms.MainForm.resources
 C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.Forms.LoginForm.resources
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.UserControl.BienLaiUI.resources
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.UserControl.HoaDonUI.resources
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.UserControl.KhachHangUI.resources
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.UserControl.NhaCungCapUI.resources
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.UserControl.NhanVienUI.resources
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.UserControl.SanPhamUI.resources
+C:\HCMUTE\DoAnCongNgheThongTin\DoAnCNTT\PresentationLayer\obj\Debug\PresentationLayer.UI.UserControl.ThongKeUI.resources

@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI.WinForms.GunaLabel gunaLabel8;
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.UI.WinForms.GunaLabel gunaLabel8;
             this.dgv = new System.Windows.Forms.DataGridView();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
@@ -58,6 +58,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanPham)).BeginInit();
             this.SuspendLayout();
+            // 
+            // gunaLabel8
+            // 
+            gunaLabel8.AutoSize = true;
+            gunaLabel8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            gunaLabel8.Location = new System.Drawing.Point(40, 68);
+            gunaLabel8.Name = "gunaLabel8";
+            gunaLabel8.Size = new System.Drawing.Size(142, 19);
+            gunaLabel8.TabIndex = 166;
+            gunaLabel8.Text = "Mã nhà cung cấp";
             // 
             // dgv
             // 
@@ -258,6 +268,7 @@
             this.SaveButton.TabIndex = 178;
             this.SaveButton.Text = "Lưu";
             this.SaveButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // gunaLabel9
             // 
@@ -334,16 +345,6 @@
             this.textBoxTenNhaCungCap.ShadowDecoration.Parent = this.textBoxTenNhaCungCap;
             this.textBoxTenNhaCungCap.Size = new System.Drawing.Size(337, 44);
             this.textBoxTenNhaCungCap.TabIndex = 173;
-            // 
-            // gunaLabel8
-            // 
-            gunaLabel8.AutoSize = true;
-            gunaLabel8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            gunaLabel8.Location = new System.Drawing.Point(40, 68);
-            gunaLabel8.Name = "gunaLabel8";
-            gunaLabel8.Size = new System.Drawing.Size(142, 19);
-            gunaLabel8.TabIndex = 166;
-            gunaLabel8.Text = "Mã nhà cung cấp";
             // 
             // textBoxEmail
             // 
@@ -471,6 +472,7 @@
             this.Name = "NCCDetail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nhà cung cấp";
+            this.Load += new System.EventHandler(this.NCCDetail_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanPham)).EndInit();
             this.ResumeLayout(false);

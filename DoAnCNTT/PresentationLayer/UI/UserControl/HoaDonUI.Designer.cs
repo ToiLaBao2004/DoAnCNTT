@@ -97,6 +97,7 @@
             this.DeleButton.Size = new System.Drawing.Size(107, 49);
             this.DeleButton.TabIndex = 225;
             this.DeleButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.DeleButton.Click += new System.EventHandler(this.DeleButton_Click);
             // 
             // gunaLabel3
             // 
@@ -364,6 +365,7 @@
             this.MHD.ShadowDecoration.Parent = this.MHD;
             this.MHD.Size = new System.Drawing.Size(389, 44);
             this.MHD.TabIndex = 209;
+            this.MHD.TextChanged += new System.EventHandler(this.MHD_TextChanged);
             // 
             // gunaLabel1
             // 
@@ -427,6 +429,7 @@
             this.ReloadButton.Size = new System.Drawing.Size(107, 49);
             this.ReloadButton.TabIndex = 205;
             this.ReloadButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ReloadButton.Click += new System.EventHandler(this.ReloadButton_Click);
             // 
             // ReadButton
             // 
@@ -454,6 +457,7 @@
             this.ReadButton.Size = new System.Drawing.Size(107, 49);
             this.ReadButton.TabIndex = 203;
             this.ReadButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ReadButton.Click += new System.EventHandler(this.ReadButton_Click);
             // 
             // AddButton
             // 
@@ -481,6 +485,7 @@
             this.AddButton.Size = new System.Drawing.Size(107, 49);
             this.AddButton.TabIndex = 202;
             this.AddButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // Column3
             // 
@@ -653,6 +658,7 @@
             this.dgvHoaDon.ThemeStyle.RowsStyle.Height = 24;
             this.dgvHoaDon.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
             this.dgvHoaDon.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvHoaDon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDon_CellClick);
             // 
             // txtMKH
             // 
@@ -684,6 +690,7 @@
             this.txtMKH.ShadowDecoration.Parent = this.txtMKH;
             this.txtMKH.Size = new System.Drawing.Size(389, 44);
             this.txtMKH.TabIndex = 226;
+            this.txtMKH.TextChanged += new System.EventHandler(this.MHD_TextChanged);
             // 
             // HoaDonUI
             // 
@@ -720,6 +727,7 @@
             this.Name = "HoaDonUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HoaDonUI";
+            this.Load += new System.EventHandler(this.HoaDonUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

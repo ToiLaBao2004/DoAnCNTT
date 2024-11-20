@@ -97,6 +97,7 @@
             this.DeleBtn.Size = new System.Drawing.Size(107, 49);
             this.DeleBtn.TabIndex = 180;
             this.DeleBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.DeleBtn.Click += new System.EventHandler(this.DeleBtn_Click);
             // 
             // gunaLabel3
             // 
@@ -380,6 +381,7 @@
             this.MNV.ShadowDecoration.Parent = this.MNV;
             this.MNV.Size = new System.Drawing.Size(389, 44);
             this.MNV.TabIndex = 165;
+            this.MNV.TextChanged += new System.EventHandler(this.MNV_TextChanged);
             // 
             // gunaLabel1
             // 
@@ -447,6 +449,7 @@
             this.NameText.ShadowDecoration.Parent = this.NameText;
             this.NameText.Size = new System.Drawing.Size(412, 44);
             this.NameText.TabIndex = 163;
+            this.NameText.TextChanged += new System.EventHandler(this.MNV_TextChanged);
             // 
             // guna2Button7
             // 
@@ -514,6 +517,7 @@
             this.ReloadButton.Size = new System.Drawing.Size(107, 49);
             this.ReloadButton.TabIndex = 159;
             this.ReloadButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ReloadButton.Click += new System.EventHandler(this.ReloadButton_Click);
             // 
             // ReadButton
             // 
@@ -541,6 +545,7 @@
             this.ReadButton.Size = new System.Drawing.Size(107, 49);
             this.ReadButton.TabIndex = 157;
             this.ReadButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ReadButton.Click += new System.EventHandler(this.ReadButton_Click);
             // 
             // AddButton
             // 
@@ -568,6 +573,7 @@
             this.AddButton.Size = new System.Drawing.Size(107, 49);
             this.AddButton.TabIndex = 155;
             this.AddButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // UpdateButton
             // 
@@ -595,6 +601,7 @@
             this.UpdateButton.Size = new System.Drawing.Size(107, 49);
             this.UpdateButton.TabIndex = 156;
             this.UpdateButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.UpdateButton.Click += new System.EventHandler(this.UpdateButton_Click);
             // 
             // GioiTinh
             // 
@@ -687,6 +694,7 @@
             this.dgvNhanVien.ThemeStyle.RowsStyle.Height = 24;
             this.dgvNhanVien.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
             this.dgvNhanVien.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvNhanVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhanVien_CellClick);
             // 
             // Column1
             // 
@@ -741,6 +749,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "NhanVienUI";
             this.Text = "NhanVienUI";
+            this.Load += new System.EventHandler(this.NhanVienUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

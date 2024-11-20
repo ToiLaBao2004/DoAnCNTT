@@ -325,6 +325,7 @@
             this.SaveButton.TabIndex = 59;
             this.SaveButton.Text = "Lưu";
             this.SaveButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // dgv
             // 

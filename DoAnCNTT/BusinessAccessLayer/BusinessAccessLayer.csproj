@@ -55,7 +55,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Database.cs" />
+    <Compile Include="DBBienlai.cs" />
+    <Compile Include="DBHoaDon.cs" />
+    <Compile Include="DBKhachHang.cs" />
+    <Compile Include="DBNhaCungCap.cs" />
     <Compile Include="DBNhanVien.cs" />
+    <Compile Include="DBSanPham.cs" />
+    <Compile Include="DBThongKe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

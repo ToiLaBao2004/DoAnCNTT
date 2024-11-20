@@ -351,6 +351,7 @@
             this.MBL.ShadowDecoration.Parent = this.MBL;
             this.MBL.Size = new System.Drawing.Size(389, 44);
             this.MBL.TabIndex = 212;
+            this.MBL.TextChanged += new System.EventHandler(this.MBL_TextChanged);
             // 
             // gunaLabel1
             // 
@@ -426,6 +427,7 @@
             this.ReloadButton.Size = new System.Drawing.Size(107, 49);
             this.ReloadButton.TabIndex = 208;
             this.ReloadButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ReloadButton.Click += new System.EventHandler(this.ReloadButton_Click);
             // 
             // ReadButton
             // 
@@ -452,6 +454,7 @@
             this.ReadButton.Size = new System.Drawing.Size(107, 49);
             this.ReadButton.TabIndex = 206;
             this.ReadButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ReadButton.Click += new System.EventHandler(this.ReadButton_Click);
             // 
             // AddButton
             // 
@@ -478,6 +481,7 @@
             this.AddButton.Size = new System.Drawing.Size(107, 49);
             this.AddButton.TabIndex = 205;
             this.AddButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // dgvBienLai
             // 
@@ -557,6 +561,7 @@
             this.dgvBienLai.ThemeStyle.RowsStyle.Height = 24;
             this.dgvBienLai.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
             this.dgvBienLai.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvBienLai.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBienLai_CellClick);
             // 
             // MaBL
             // 
@@ -606,6 +611,7 @@
             this.Name = "BienLaiUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BienLaiUI";
+            this.Load += new System.EventHandler(this.BienLaiUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBienLai)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

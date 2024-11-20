@@ -160,6 +160,7 @@
             this.imgBtn.TabIndex = 127;
             this.imgBtn.Text = "Hình ảnh";
             this.imgBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.imgBtn.Click += new System.EventHandler(this.imgBtn_Click);
             // 
             // SaveButton
             // 
@@ -187,6 +188,7 @@
             this.SaveButton.TabIndex = 126;
             this.SaveButton.Text = "Lưu";
             this.SaveButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // a
             // 
@@ -352,6 +354,7 @@
             this.Name = "SPDetail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sản phẩm";
+            this.Load += new System.EventHandler(this.SPDetail_Load);
             ((System.ComponentModel.ISupportInitialize)(this.a)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureProduct)).EndInit();
             this.ResumeLayout(false);

@@ -1,4 +1,5 @@
-﻿using PresentationLayer.UI.UserControl;
+﻿using BusinessAccessLayer;
+using PresentationLayer.UI.UserControl;
 using System;
 using System.Windows.Forms;
 
@@ -8,17 +9,27 @@ namespace PresentationLayer.UI.Forms
     {
         SanPhamUI sanPhamUI = new SanPhamUI();
         KhachHangUI khachHangUI = new KhachHangUI();
-        NhanVienUI nhanVienUI = new NhanVienUI();
-        HoaDonUI hoaDonUI = new HoaDonUI();
+        NhanVienUI nhanVienUI = null;
+        HoaDonUI hoaDonUI = null;
         BienLaiUI bienLaiUI = new BienLaiUI();
         NhaCungCapUI nhaCungCapUI = new NhaCungCapUI();
         ThongKeUI thongKeUI = new ThongKeUI();
+        string ID;
+        DBNhanVien dbnv;
         public MainForm(string s)
         {
+            ID = s;
+            dbnv = new DBNhanVien();
+            hoaDonUI = new HoaDonUI(s);
+            nhanVienUI = new NhanVienUI(s);
             InitializeComponent();
             addForm();
+            if (ID.Contains("BH"))
+            {
+                ButtonNCC.Visible = false;
+                ButtonHDNH.Visible = false;
+            }
             sanPhamUI.Show();
-            this.Closed += new EventHandler(MainForm_FormClosed);
         }
 
         private void ButtonSP_Click(object sender, EventArgs e)
@@ -28,6 +39,10 @@ namespace PresentationLayer.UI.Forms
         }
         void addForm()
         {
+            dgv.DataSource = dbnv.TimAllNhanVien(ID);
+            lblChucVu.Text = dgv.Rows[0].Cells[6].Value.ToString();
+            lblTen.Text = dgv.Rows[0].Cells[1].Value.ToString();
+
             sanPhamUI.TopLevel = false;
             panel1.Controls.Add(sanPhamUI);
 

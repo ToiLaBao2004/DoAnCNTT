@@ -134,11 +134,11 @@
     <Compile Include="UI\Detail\TaoKHForm.Designer.cs">
       <DependentUpon>TaoKHForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Detail\TaoNCC.cs">
+    <Compile Include="UI\Detail\TaoNCCForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Detail\TaoNCC.Designer.cs">
-      <DependentUpon>TaoNCC.cs</DependentUpon>
+    <Compile Include="UI\Detail\TaoNCCForm.Designer.cs">
+      <DependentUpon>TaoNCCForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Forms\LoginForm.cs">
       <SubType>Form</SubType>
@@ -230,8 +230,8 @@
     <EmbeddedResource Include="UI\Detail\TaoKHForm.resx">
       <DependentUpon>TaoKHForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Detail\TaoNCC.resx">
-      <DependentUpon>TaoNCC.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Detail\TaoNCCForm.resx">
+      <DependentUpon>TaoNCCForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

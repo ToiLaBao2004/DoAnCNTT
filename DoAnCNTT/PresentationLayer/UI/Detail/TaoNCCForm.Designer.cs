@@ -1,6 +1,6 @@
 ﻿namespace PresentationLayer.UI.Detail
 {
-    partial class TaoNCC
+    partial class TaoNCCForm
     {
         /// <summary>
         /// Required designer variable.
@@ -47,7 +47,7 @@
             // 
             this.gunaLabel6.AutoSize = true;
             this.gunaLabel6.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gunaLabel6.Location = new System.Drawing.Point(37, 186);
+            this.gunaLabel6.Location = new System.Drawing.Point(35, 182);
             this.gunaLabel6.Name = "gunaLabel6";
             this.gunaLabel6.Size = new System.Drawing.Size(51, 19);
             this.gunaLabel6.TabIndex = 178;
@@ -57,7 +57,7 @@
             // 
             this.gunaLabel5.AutoSize = true;
             this.gunaLabel5.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gunaLabel5.Location = new System.Drawing.Point(418, 120);
+            this.gunaLabel5.Location = new System.Drawing.Point(416, 116);
             this.gunaLabel5.Name = "gunaLabel5";
             this.gunaLabel5.Size = new System.Drawing.Size(62, 19);
             this.gunaLabel5.TabIndex = 177;
@@ -67,7 +67,7 @@
             // 
             this.gunaLabel4.AutoSize = true;
             this.gunaLabel4.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gunaLabel4.Location = new System.Drawing.Point(34, 119);
+            this.gunaLabel4.Location = new System.Drawing.Point(32, 115);
             this.gunaLabel4.Name = "gunaLabel4";
             this.gunaLabel4.Size = new System.Drawing.Size(112, 19);
             this.gunaLabel4.TabIndex = 176;
@@ -77,7 +77,7 @@
             // 
             this.gunaLabel7.AutoSize = true;
             this.gunaLabel7.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gunaLabel7.Location = new System.Drawing.Point(415, 54);
+            this.gunaLabel7.Location = new System.Drawing.Point(413, 50);
             this.gunaLabel7.Name = "gunaLabel7";
             this.gunaLabel7.Size = new System.Drawing.Size(149, 19);
             this.gunaLabel7.TabIndex = 175;
@@ -99,7 +99,7 @@
             this.textBoxTenNhaCungCap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textBoxTenNhaCungCap.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.textBoxTenNhaCungCap.HoverState.Parent = this.textBoxTenNhaCungCap;
-            this.textBoxTenNhaCungCap.Location = new System.Drawing.Point(394, 67);
+            this.textBoxTenNhaCungCap.Location = new System.Drawing.Point(392, 63);
             this.textBoxTenNhaCungCap.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxTenNhaCungCap.Name = "textBoxTenNhaCungCap";
             this.textBoxTenNhaCungCap.PasswordChar = '\0';
@@ -113,7 +113,7 @@
             // 
             gunaLabel8.AutoSize = true;
             gunaLabel8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            gunaLabel8.Location = new System.Drawing.Point(34, 55);
+            gunaLabel8.Location = new System.Drawing.Point(32, 51);
             gunaLabel8.Name = "gunaLabel8";
             gunaLabel8.Size = new System.Drawing.Size(142, 19);
             gunaLabel8.TabIndex = 174;
@@ -134,7 +134,7 @@
             this.textBoxEmail.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textBoxEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.textBoxEmail.HoverState.Parent = this.textBoxEmail;
-            this.textBoxEmail.Location = new System.Drawing.Point(13, 199);
+            this.textBoxEmail.Location = new System.Drawing.Point(11, 195);
             this.textBoxEmail.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.PasswordChar = '\0';
@@ -159,7 +159,7 @@
             this.textBoxDiaChi.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textBoxDiaChi.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.textBoxDiaChi.HoverState.Parent = this.textBoxDiaChi;
-            this.textBoxDiaChi.Location = new System.Drawing.Point(394, 132);
+            this.textBoxDiaChi.Location = new System.Drawing.Point(392, 128);
             this.textBoxDiaChi.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxDiaChi.Name = "textBoxDiaChi";
             this.textBoxDiaChi.PasswordChar = '\0';
@@ -184,7 +184,7 @@
             this.textBoxSoDienThoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textBoxSoDienThoai.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.textBoxSoDienThoai.HoverState.Parent = this.textBoxSoDienThoai;
-            this.textBoxSoDienThoai.Location = new System.Drawing.Point(13, 132);
+            this.textBoxSoDienThoai.Location = new System.Drawing.Point(11, 128);
             this.textBoxSoDienThoai.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxSoDienThoai.Name = "textBoxSoDienThoai";
             this.textBoxSoDienThoai.PasswordChar = '\0';
@@ -209,7 +209,7 @@
             this.textBoxMaNhaCungCap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textBoxMaNhaCungCap.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.textBoxMaNhaCungCap.HoverState.Parent = this.textBoxMaNhaCungCap;
-            this.textBoxMaNhaCungCap.Location = new System.Drawing.Point(13, 67);
+            this.textBoxMaNhaCungCap.Location = new System.Drawing.Point(11, 63);
             this.textBoxMaNhaCungCap.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxMaNhaCungCap.Name = "textBoxMaNhaCungCap";
             this.textBoxMaNhaCungCap.PasswordChar = '\0';
@@ -233,7 +233,7 @@
             this.SaveButton.Image = null;
             this.SaveButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.SaveButton.ImageSize = new System.Drawing.Size(20, 20);
-            this.SaveButton.Location = new System.Drawing.Point(624, 244);
+            this.SaveButton.Location = new System.Drawing.Point(622, 240);
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.OnHoverBaseColor = System.Drawing.Color.LemonChiffon;
             this.SaveButton.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -245,18 +245,19 @@
             this.SaveButton.TabIndex = 173;
             this.SaveButton.Text = "Lưu";
             this.SaveButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // gunaLabel9
             // 
             this.gunaLabel9.AutoSize = true;
             this.gunaLabel9.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.gunaLabel9.Location = new System.Drawing.Point(263, 13);
+            this.gunaLabel9.Location = new System.Drawing.Point(261, 9);
             this.gunaLabel9.Name = "gunaLabel9";
             this.gunaLabel9.Size = new System.Drawing.Size(279, 27);
             this.gunaLabel9.TabIndex = 172;
             this.gunaLabel9.Text = "Thông tin nhà cung cấp";
             // 
-            // TaoNCC
+            // TaoNCCForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -274,7 +275,7 @@
             this.Controls.Add(this.textBoxMaNhaCungCap);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.gunaLabel9);
-            this.Name = "TaoNCC";
+            this.Name = "TaoNCCForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tạo nhà cung cấp";
             this.ResumeLayout(false);

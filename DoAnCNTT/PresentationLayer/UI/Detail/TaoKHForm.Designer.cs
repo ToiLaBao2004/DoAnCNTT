@@ -45,6 +45,16 @@
             gunaLabel8 = new Guna.UI.WinForms.GunaLabel();
             this.SuspendLayout();
             // 
+            // gunaLabel8
+            // 
+            gunaLabel8.AutoSize = true;
+            gunaLabel8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            gunaLabel8.Location = new System.Drawing.Point(34, 70);
+            gunaLabel8.Name = "gunaLabel8";
+            gunaLabel8.Size = new System.Drawing.Size(112, 19);
+            gunaLabel8.TabIndex = 192;
+            gunaLabel8.Text = "Số điện thoại";
+            // 
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
@@ -81,6 +91,7 @@
             this.SaveButton.TabIndex = 204;
             this.SaveButton.Text = "Lưu";
             this.SaveButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // dtpBirthday
             // 
@@ -176,16 +187,6 @@
             this.txtName.ShadowDecoration.Parent = this.txtName;
             this.txtName.Size = new System.Drawing.Size(337, 44);
             this.txtName.TabIndex = 199;
-            // 
-            // gunaLabel8
-            // 
-            gunaLabel8.AutoSize = true;
-            gunaLabel8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            gunaLabel8.Location = new System.Drawing.Point(34, 70);
-            gunaLabel8.Name = "gunaLabel8";
-            gunaLabel8.Size = new System.Drawing.Size(112, 19);
-            gunaLabel8.TabIndex = 192;
-            gunaLabel8.Text = "Số điện thoại";
             // 
             // Total
             // 

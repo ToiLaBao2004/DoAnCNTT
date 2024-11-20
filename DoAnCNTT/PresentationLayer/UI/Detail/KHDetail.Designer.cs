@@ -65,6 +65,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvSP)).BeginInit();
             this.SuspendLayout();
             // 
+            // gunaLabel8
+            // 
+            gunaLabel8.AutoSize = true;
+            gunaLabel8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            gunaLabel8.Location = new System.Drawing.Point(32, 71);
+            gunaLabel8.Name = "gunaLabel8";
+            gunaLabel8.Size = new System.Drawing.Size(112, 19);
+            gunaLabel8.TabIndex = 196;
+            gunaLabel8.Text = "Số điện thoại";
+            // 
             // dgvKhachHang
             // 
             this.dgvKhachHang.AccessibleName = "";
@@ -254,16 +264,6 @@
             this.Column4.ReadOnly = true;
             this.Column4.Visible = false;
             this.Column4.Width = 122;
-            // 
-            // gunaLabel8
-            // 
-            gunaLabel8.AutoSize = true;
-            gunaLabel8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            gunaLabel8.Location = new System.Drawing.Point(32, 71);
-            gunaLabel8.Name = "gunaLabel8";
-            gunaLabel8.Size = new System.Drawing.Size(112, 19);
-            gunaLabel8.TabIndex = 196;
-            gunaLabel8.Text = "Số điện thoại";
             // 
             // Column6
             // 
@@ -517,6 +517,7 @@
             this.SaveButton.TabIndex = 193;
             this.SaveButton.Text = "Lưu";
             this.SaveButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // KHDetail
             // 
@@ -544,6 +545,7 @@
             this.Name = "KHDetail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Khách hàng";
+            this.Load += new System.EventHandler(this.KHDetail_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSP)).EndInit();
             this.ResumeLayout(false);

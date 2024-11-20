@@ -69,6 +69,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvNCC)).BeginInit();
             this.SuspendLayout();
             // 
+            // gunaLabel8
+            // 
+            gunaLabel8.AutoSize = true;
+            gunaLabel8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            gunaLabel8.Location = new System.Drawing.Point(33, 52);
+            gunaLabel8.Name = "gunaLabel8";
+            gunaLabel8.Size = new System.Drawing.Size(142, 19);
+            gunaLabel8.TabIndex = 166;
+            gunaLabel8.Text = "Mã nhà cung cấp";
+            // 
             // gunaLabel3
             // 
             this.gunaLabel3.AutoSize = true;
@@ -212,16 +222,6 @@
             this.txtTenNCC.ShadowDecoration.Parent = this.txtTenNCC;
             this.txtTenNCC.Size = new System.Drawing.Size(337, 44);
             this.txtTenNCC.TabIndex = 172;
-            // 
-            // gunaLabel8
-            // 
-            gunaLabel8.AutoSize = true;
-            gunaLabel8.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            gunaLabel8.Location = new System.Drawing.Point(33, 52);
-            gunaLabel8.Name = "gunaLabel8";
-            gunaLabel8.Size = new System.Drawing.Size(142, 19);
-            gunaLabel8.TabIndex = 166;
-            gunaLabel8.Text = "Mã nhà cung cấp";
             // 
             // txtTotal
             // 
@@ -371,6 +371,7 @@
             this.MaNhaCungCap.ShadowDecoration.Parent = this.MaNhaCungCap;
             this.MaNhaCungCap.Size = new System.Drawing.Size(389, 44);
             this.MaNhaCungCap.TabIndex = 164;
+            this.MaNhaCungCap.TextChanged += new System.EventHandler(this.MaNhaCungCap_TextChanged);
             // 
             // gunaLabel1
             // 
@@ -438,6 +439,7 @@
             this.NameNCC.ShadowDecoration.Parent = this.NameNCC;
             this.NameNCC.Size = new System.Drawing.Size(412, 44);
             this.NameNCC.TabIndex = 162;
+            this.NameNCC.TextChanged += new System.EventHandler(this.MaNhaCungCap_TextChanged);
             // 
             // guna2Button7
             // 
@@ -488,6 +490,7 @@
             this.ReloadButton.Size = new System.Drawing.Size(107, 49);
             this.ReloadButton.TabIndex = 158;
             this.ReloadButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ReloadButton.Click += new System.EventHandler(this.ReloadButton_Click);
             // 
             // ReadButton
             // 
@@ -514,6 +517,7 @@
             this.ReadButton.Size = new System.Drawing.Size(107, 49);
             this.ReadButton.TabIndex = 156;
             this.ReadButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ReadButton.Click += new System.EventHandler(this.ReadButton_Click);
             // 
             // AddButton
             // 
@@ -540,6 +544,7 @@
             this.AddButton.Size = new System.Drawing.Size(107, 49);
             this.AddButton.TabIndex = 154;
             this.AddButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // dgvNCC
             // 
@@ -620,6 +625,7 @@
             this.dgvNCC.ThemeStyle.RowsStyle.Height = 24;
             this.dgvNCC.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
             this.dgvNCC.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvNCC.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNCC_CellClick);
             // 
             // MaNCC
             // 
@@ -654,6 +660,7 @@
             this.UpdateButton.Size = new System.Drawing.Size(107, 49);
             this.UpdateButton.TabIndex = 155;
             this.UpdateButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.UpdateButton.Click += new System.EventHandler(this.UpdateButton_Click);
             // 
             // NhaCungCapUI
             // 
@@ -690,6 +697,7 @@
             this.Name = "NhaCungCapUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NhaCungCapUI";
+            this.Load += new System.EventHandler(this.NhaCungCapUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvNCC)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

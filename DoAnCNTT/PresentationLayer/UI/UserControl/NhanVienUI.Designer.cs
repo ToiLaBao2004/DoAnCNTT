@@ -127,7 +127,7 @@
             this.Ngay.ShadowDecoration.Parent = this.Ngay;
             this.Ngay.Size = new System.Drawing.Size(317, 44);
             this.Ngay.TabIndex = 179;
-            this.Ngay.Value = new System.DateTime(2024, 3, 29, 7, 43, 2, 28);
+            this.Ngay.Value = new System.DateTime(2024, 12, 4, 0, 0, 0, 0);
             // 
             // gunaLabel9
             // 

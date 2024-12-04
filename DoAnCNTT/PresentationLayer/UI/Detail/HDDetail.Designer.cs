@@ -119,7 +119,7 @@
             this.Ngay.ShadowDecoration.Parent = this.Ngay;
             this.Ngay.Size = new System.Drawing.Size(317, 54);
             this.Ngay.TabIndex = 194;
-            this.Ngay.Value = new System.DateTime(2024, 3, 22, 21, 10, 19, 800);
+            this.Ngay.Value = new System.DateTime(2024, 12, 4, 0, 0, 0, 0);
             // 
             // dgvSP
             // 

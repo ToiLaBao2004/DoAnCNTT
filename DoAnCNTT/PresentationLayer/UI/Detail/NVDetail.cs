@@ -39,6 +39,7 @@ namespace PresentationLayer.UI.Detail
                 textBoxTrangThai.Enabled = false;
                 textBoxTotal.Visible = false;
                 gunaLabel4.Visible = false;
+                textBoxMK.ReadOnly = false;
                 this.Text = "Thêm nhân viên mới";
             }
 

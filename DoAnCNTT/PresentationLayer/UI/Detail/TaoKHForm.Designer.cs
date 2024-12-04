@@ -110,7 +110,7 @@
             this.dtpBirthday.ShadowDecoration.Parent = this.dtpBirthday;
             this.dtpBirthday.Size = new System.Drawing.Size(337, 44);
             this.dtpBirthday.TabIndex = 203;
-            this.dtpBirthday.Value = new System.DateTime(2024, 3, 29, 7, 43, 2, 28);
+            this.dtpBirthday.Value = new System.DateTime(2024, 12, 4, 0, 0, 0, 0);
             // 
             // gunaLabel9
             // 

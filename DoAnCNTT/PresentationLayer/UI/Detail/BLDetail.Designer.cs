@@ -102,7 +102,7 @@
             this.dateTimePickerNgayThanhToan.ShadowDecoration.Parent = this.dateTimePickerNgayThanhToan;
             this.dateTimePickerNgayThanhToan.Size = new System.Drawing.Size(318, 56);
             this.dateTimePickerNgayThanhToan.TabIndex = 191;
-            this.dateTimePickerNgayThanhToan.Value = new System.DateTime(2024, 3, 22, 21, 10, 19, 800);
+            this.dateTimePickerNgayThanhToan.Value = new System.DateTime(2024, 12, 4, 0, 0, 0, 0);
             // 
             // GiaTien
             // 
@@ -367,6 +367,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(934, 440);
+            this.Controls.Add(this.gunaLabel3);
             this.Controls.Add(this.dgv);
             this.Controls.Add(this.gunaLabel4);
             this.Controls.Add(this.gunaLabel9);
@@ -379,7 +380,6 @@
             this.Controls.Add(this.textBoxThanhTien);
             this.Controls.Add(this.textBoxTenNhaCungCap);
             this.Controls.Add(this.textBoxMaBienLai);
-            this.Controls.Add(this.gunaLabel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "BLDetail";
             this.ShowInTaskbar = false;

@@ -30,7 +30,7 @@ namespace PresentationLayer.UI.UserControl
                 dgvHoaDon.DataSource = dbhd.LayHoaDon();
 
                 HD = dgvHoaDon.Rows[0].Cells[0].Value.ToString().ToLower();
-                LabelSoHoaDon.Text = (dgvHoaDon.RowCount).ToString();
+                LabelSoHoaDonn.Text = (dgvHoaDon.RowCount).ToString();
             }
             catch (SqlException ex)
             {
@@ -81,7 +81,7 @@ namespace PresentationLayer.UI.UserControl
                 if (r > 1)
                 {
                     HD = dgvHoaDon.Rows[0].Cells[0].Value.ToString();
-                    LabelSoHoaDon.Text = (dgvHoaDon.RowCount).ToString();
+                    LabelSoHoaDonn.Text = (dgvHoaDon.RowCount).ToString();
                 }
 
             }

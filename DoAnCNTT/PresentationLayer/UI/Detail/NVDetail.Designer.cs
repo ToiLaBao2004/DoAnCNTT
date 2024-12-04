@@ -196,7 +196,7 @@
             this.dateTimePicker.ShadowDecoration.Parent = this.dateTimePicker;
             this.dateTimePicker.Size = new System.Drawing.Size(348, 54);
             this.dateTimePicker.TabIndex = 67;
-            this.dateTimePicker.Value = new System.DateTime(2024, 3, 22, 21, 10, 19, 800);
+            this.dateTimePicker.Value = new System.DateTime(2024, 12, 4, 0, 0, 0, 0);
             // 
             // comboBoxChucVu
             // 
@@ -268,6 +268,7 @@
             this.textBoxMK.Name = "textBoxMK";
             this.textBoxMK.PasswordChar = '\0';
             this.textBoxMK.PlaceholderText = "";
+            this.textBoxMK.ReadOnly = true;
             this.textBoxMK.SelectedText = "";
             this.textBoxMK.ShadowDecoration.Parent = this.textBoxMK;
             this.textBoxMK.Size = new System.Drawing.Size(348, 44);

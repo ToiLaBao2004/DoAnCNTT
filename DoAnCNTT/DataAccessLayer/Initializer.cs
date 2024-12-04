@@ -58,9 +58,8 @@ namespace DataAccessLayer
 
             var discounts = new[]
             {
-                new Discount { DiscountCode = "14THANG2", PercentageDiscount = 15, StartDay = DateTime.Parse("2024-02-10"), EndDay = DateTime.Parse("2024-02-15") },
-                new Discount { DiscountCode = "30THANG4", PercentageDiscount = 25, StartDay = DateTime.Parse("2024-04-25"), EndDay = DateTime.Parse("2024-05-02") },
-                new Discount { DiscountCode = "8THANG3", PercentageDiscount = 20, StartDay = DateTime.Parse("2024-03-05"), EndDay = DateTime.Parse("2024-03-09") }
+                new Discount { DiscountCode = "BLFRIDAY", PercentageDiscount = 30, StartDay = DateTime.Parse("2024-11-25"), EndDay = DateTime.Parse("2024-12-02") },
+                new Discount { DiscountCode = "12THANG12", PercentageDiscount = 30, StartDay = DateTime.Parse("2024-12-11"), EndDay = DateTime.Parse("2024-12-12") }
             };
             context.Discounts.AddOrUpdate(c => c.DiscountCode, discounts);
 
@@ -347,18 +346,18 @@ namespace DataAccessLayer
 
             var orders = new[]
             {
-                new Order { Order_ID = "HD00001", PhoneNumber = "0923455789", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-03-08"), Total = 2760000, DiscountCode = "8thang3" },
-                new Order { Order_ID = "HD00002", PhoneNumber = "0934586890", EmployeeID = "BH01", OrderDate = DateTime.Parse("2024-02-14"), Total = 800000, DiscountCode = "14thang2" },
-                new Order { Order_ID = "HD00003", PhoneNumber = "0901236767", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-03-10"), Total = 8100000, DiscountCode = null },
-                new Order { Order_ID = "HD00004", PhoneNumber = "0912345678", EmployeeID = "BH01", OrderDate = DateTime.Parse("2024-03-10"), Total = 300000, DiscountCode = null },
-                new Order { Order_ID = "HD00005", PhoneNumber = "0923455789", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-03-10"), Total = 5300000, DiscountCode = null },
-                new Order { Order_ID = "HD00006", PhoneNumber = "0934586890", EmployeeID = "BH01", OrderDate = DateTime.Parse("2024-03-11"), Total = 800000, DiscountCode = null },
-                new Order { Order_ID = "HD00007", PhoneNumber = "0944567901", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-03-12"), Total = 15300000, DiscountCode = null },
-                new Order { Order_ID = "HD00008", PhoneNumber = "0959839012", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-03-13"), Total = 9800000, DiscountCode = null },
-                new Order { Order_ID = "HD00009", PhoneNumber = "0967801423", EmployeeID = "BH02", OrderDate = DateTime.Parse("2024-03-14"), Total = 2300000, DiscountCode = null },
-                new Order { Order_ID = "HD00010", PhoneNumber = "0978986234", EmployeeID = "BH02", OrderDate = DateTime.Parse("2024-03-15"), Total = 2700000, DiscountCode = null },
-                new Order { Order_ID = "HD00011", PhoneNumber = "0989013345", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-04-30"), Total = 930000, DiscountCode = "30THANG4" },
-                new Order { Order_ID = "HD00012", PhoneNumber = "0990124756", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-03-17"), Total = 4000000, DiscountCode = null },
+                new Order { Order_ID = "HD00001", PhoneNumber = "0923455789", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-11-08"), Total = 3450000, DiscountCode = null },
+                new Order { Order_ID = "HD00002", PhoneNumber = "0934586890", EmployeeID = "BH01", OrderDate = DateTime.Parse("2024-11-09"), Total = 800000, DiscountCode = null },
+                new Order { Order_ID = "HD00003", PhoneNumber = "0901236767", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-11-10"), Total = 8100000, DiscountCode = null },
+                new Order { Order_ID = "HD00004", PhoneNumber = "0912345678", EmployeeID = "BH01", OrderDate = DateTime.Parse("2024-11-10"), Total = 300000, DiscountCode = null },
+                new Order { Order_ID = "HD00005", PhoneNumber = "0923455789", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-11-10"), Total = 5300000, DiscountCode = null },
+                new Order { Order_ID = "HD00006", PhoneNumber = "0934586890", EmployeeID = "BH01", OrderDate = DateTime.Parse("2024-11-11"), Total = 800000, DiscountCode = null },
+                new Order { Order_ID = "HD00007", PhoneNumber = "0944567901", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-11-12"), Total = 15300000, DiscountCode = null },
+                new Order { Order_ID = "HD00008", PhoneNumber = "0959839012", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-11-13"), Total = 9800000, DiscountCode = null },
+                new Order { Order_ID = "HD00009", PhoneNumber = "0967801423", EmployeeID = "BH02", OrderDate = DateTime.Parse("2024-11-14"), Total = 2300000, DiscountCode = null },
+                new Order { Order_ID = "HD00010", PhoneNumber = "0978986234", EmployeeID = "BH02", OrderDate = DateTime.Parse("2024-11-15"), Total = 2700000, DiscountCode = null },
+                new Order { Order_ID = "HD00011", PhoneNumber = "0989013345", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-11-16"), Total = 1240000, DiscountCode = null },
+                new Order { Order_ID = "HD00012", PhoneNumber = "0990124756", EmployeeID = "QL01", OrderDate = DateTime.Parse("2024-11-17"), Total = 4000000, DiscountCode = null },
             };
             context.Orders.AddOrUpdate(p => p.Order_ID, orders);
 

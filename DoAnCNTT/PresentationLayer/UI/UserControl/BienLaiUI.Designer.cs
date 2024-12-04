@@ -150,7 +150,7 @@
             this.ngayNhap.ShadowDecoration.Parent = this.ngayNhap;
             this.ngayNhap.Size = new System.Drawing.Size(318, 44);
             this.ngayNhap.TabIndex = 224;
-            this.ngayNhap.Value = new System.DateTime(2024, 4, 24, 0, 0, 0, 0);
+            this.ngayNhap.Value = new System.DateTime(2024, 12, 4, 0, 0, 0, 0);
             // 
             // gunaLabel5
             // 
